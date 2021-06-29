@@ -27,5 +27,11 @@ body {
   width: 80%;
   margin: 0 auto;
 
-  padding: 2em 50% 2em 2em;
+  padding: 2em;
 }
+
+.intro-content {
+  width: 50%;
+}
+
+
