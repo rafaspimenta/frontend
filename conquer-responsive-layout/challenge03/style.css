@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+.container
+{
+    margin: 0;
+    background-color: #23424A;
+    padding: 8em 0 8em 8em;
+}
+
+.content {
+    margin: 0;
+    color: white;
+    max-width: 700px;
+    font-family: Roboto;
+}
+
+.intro {
+    font-size: 48px;
+    font-weight: 700px;
+
+}
+
+.details {
+    font-size: 21px;
+    font-weight: 400px;
+    color: #136C72;
+}
+
+.cta-button {
+    background-color: #38CFD9;
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    padding: 0.8em 2em;
+}
