@@ -1,42 +1,51 @@
-* {
+*, *::before, *::after {
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem; /* 21px*/
 }
 
 .container
 {
-    margin: 0;
-    background-color: #23424A;
-    padding: 8em 0 8em 8em;
+    padding: 100px 0;
+    background-color: #23424a;
+    color: #fff;
 }
 
-.content {
-    margin: 0;
-    color: white;
-    max-width: 700px;
-    font-family: Roboto;
+.content
+{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid yellow;
 }
 
-.intro {
-    font-size: 48px;
-    font-weight: 700px;
-
+.content__text {
+    width: 60%;
+    border: 1px solid pink;
 }
 
-.details {
-    font-size: 21px;
-    font-weight: 400px;
-    color: #136C72;
+.content__text__intro {
+    font-size: 3rem;
 }
 
-.cta-button {
+.content__text__detail {
+    margin-bottom: 3em;
+}
+
+.content__button {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
     background-color: #38CFD9;
-    color: black;
-    font-size: 21px;
-    font-weight: bold;
-    border: none;
-    border-radius: 30px;
     padding: 0.8em 2em;
+    color: black;
+    border-radius: 100px;
+}
+
+.content__button:hover,
+.content__button:focus {
+    opacity: 0.75
 }
